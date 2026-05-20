@@ -1,0 +1,16 @@
+# Build artifacts (binaries go in GitHub Releases, not the repo)
+dist/
+*.exe
+node_modules/
+
+# Local config / secrets
+.env
+.env.*
+~/.tartarus/
+cli-token.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
