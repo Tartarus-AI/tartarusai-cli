@@ -1,0 +1,18 @@
+TartarusAI CLI
+==============
+
+The TartarusAI CLI is a branded distribution built on top of the
+open-source "opencode" project, used under the MIT License.
+
+Original work: opencode — Copyright (c) 2025 opencode
+Upstream:      https://github.com/sst/opencode
+License:       MIT (see LICENSE)
+
+Modifications by TartarusAI:
+  - User-facing branding changed to "TartarusAI" / "tartarusai-cli"
+  - Hosted opencode.ai cloud integrations (auto-update, GitHub app)
+    disabled; the CLI targets the TartarusAI inference API only.
+
+The MIT License and original copyright notice are retained in LICENSE
+as required. This NOTICE does not grant any trademark rights in the
+"opencode" or "TartarusAI" names.
