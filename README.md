@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/logo.png" width="140" alt="TartarusAI">
+<img src="./assets/avatar-min.png" width="140" alt="TartarusAI">
 
 # tartarusai-cli
 
