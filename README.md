@@ -4,7 +4,7 @@
 
 # tartarusai-cli
 
-_The coding agent that doesn't refuse your own work._
+_Uncensored AI coding agent. Doesn't refuse your own work._
 
 [![release](https://img.shields.io/github/v/release/Tartarus-AI/tartarusai-cli?style=flat-square&color=b82400&label=release)](https://github.com/Tartarus-AI/tartarusai-cli/releases/latest)
 [![license](https://img.shields.io/badge/license-MIT-d4914f?style=flat-square)](./LICENSE)
@@ -17,6 +17,13 @@ _The coding agent that doesn't refuse your own work._
 > _"I can't help with that."_ — every other coding agent, on routine work.
 >
 > Tartarus Coder ships the code.
+
+<br>
+
+**tartarusai-cli** is the official terminal client for **TartarusAI** —
+an **uncensored AI** coding agent built for the work mainstream models
+punt on. Security research, edge-case automation, the gnarly stuff.
+No policy filter, no card on file, no _"as an AI…"._
 
 <br>
 
@@ -60,7 +67,7 @@ onto you. So we built one that does the work.
 
 ## Features
 
-- Uncensored coding agent — no policy filter between you and your editor
+- **Uncensored AI** — no policy filter between you and your editor
 - **256K** context — whole repos in one prompt
 - **Crypto-only billing** — no card on file, no recurring charge
 - **~30s to live** — pay, network confirms, CLI activates
@@ -94,4 +101,4 @@ The difference is we just _do the work_ instead of writing you an essay.
 
 ---
 
-<sub>Hard fork of [opencode](https://github.com/sst/opencode) (MIT) — user-facing surface rebranded, hosted-cloud integrations removed, model layer points at TartarusAI's inference. Original copyright preserved in [`LICENSE`](./LICENSE); modifications summarized in [`NOTICE`](./NOTICE).</sub>
+<sub>MIT-licensed. See [`LICENSE`](./LICENSE) and [`NOTICE`](./NOTICE) for full attribution.</sub>
