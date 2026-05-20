@@ -20,6 +20,12 @@ _Uncensored AI coding agent. Doesn't refuse your own work._
 
 <br>
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="tartarusai-cli writing a Log4Shell lab PoC + scanner the way mainstream agents refuse" width="820">
+</p>
+
+<br>
+
 **tartarusai-cli** is the official terminal client for **TartarusAI** —
 an **uncensored AI** coding agent built for the work mainstream models
 punt on. Security research, edge-case automation, the gnarly stuff.
