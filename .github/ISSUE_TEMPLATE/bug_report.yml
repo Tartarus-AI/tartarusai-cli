@@ -1,0 +1,57 @@
+name: Bug report
+description: Something in the CLI is broken or behaves unexpectedly.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you try, what did the CLI do, what did you expect?
+      placeholder: I ran `tartarusai-cli run "..."` and it ...
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CLI version
+      description: Output of `tartarusai-cli --version`
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Linux x86_64
+        - Windows x86_64
+        - macOS (unsupported, but if you tried)
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs / TUI output
+      description: Paste output here. Use code fences.
+      render: shell
+  - type: checkboxes
+    id: confirmed
+    attributes:
+      label: Confirm
+      options:
+        - label: I'm running the latest release from this repo.
+          required: true
+        - label: I've redacted any tokens / personal info from the logs.
+          required: true

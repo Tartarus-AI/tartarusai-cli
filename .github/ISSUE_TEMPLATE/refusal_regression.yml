@@ -1,0 +1,41 @@
+name: Refusal regression
+description: The agent refused to help with something legitimate. Yes, ironic.
+title: "[refusal] "
+labels: ["refusal-regression", "model"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The whole point of TartarusAI is that it does the work other agents
+        punt on. If you got a refusal, lecture, or "as an AI…" on something
+        legitimate, that's a bug. Don't suffer in silence.
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Your prompt (redacted of anything sensitive)
+      placeholder: e.g. "Write a port scanner for my own lab range 10.0.0.0/24"
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: response
+    attributes:
+      label: What the agent said back
+      placeholder: Paste the refusal verbatim.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What were you actually trying to do? Lab? CTF? Research? Production?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CLI version + model
+      placeholder: e.g. 0.1.0 · tartarus-coder
+    validations:
+      required: true
